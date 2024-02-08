@@ -4,7 +4,6 @@ const DatesCount = ({ person }) => {
     return(
         <Row className="justify-content-center">
         <Col sm="8" className="">
-        {/* لديك خمسة مواعيد اليوم */}
         لديك {person.length} مواعيد
         </Col>
       </Row>

@@ -8,7 +8,7 @@ const DatesList = ({person}) => {
         {person.length ? (person.map((item) => { 
             return(
         <div className="d-flex border-bottom mx-3">
-        <img className="img-avatar" src="images1.png" alt="icon"/>
+        <img className="img-avatar" src={require('.//image1.png')} alt="icon"/>
         <div className="px-3">
         <p className="d-inline fs-5">{item.name} </p>
         <p className="fs-6">{item.date}</p>
